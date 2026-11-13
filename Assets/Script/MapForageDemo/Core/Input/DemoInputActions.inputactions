@@ -1,0 +1,96 @@
+{
+    "name": "DemoInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "91aa981b-8133-4057-a916-000000000001",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "91aa981b-8133-4057-a916-000000000002",
+                    "expectedControlType": "Vector2"
+                },
+                {
+                    "name": "Harvest",
+                    "type": "Button",
+                    "id": "91aa981b-8133-4057-a916-000000000003",
+                    "expectedControlType": "Button"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "91aa981b-8133-4057-a916-000000000004",
+                    "path": "2DVector",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "91aa981b-8133-4057-a916-000000000005",
+                    "path": "<Keyboard>/w",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "91aa981b-8133-4057-a916-000000000006",
+                    "path": "<Keyboard>/s",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "91aa981b-8133-4057-a916-000000000007",
+                    "path": "<Keyboard>/a",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "91aa981b-8133-4057-a916-000000000008",
+                    "path": "<Keyboard>/d",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "91aa981b-8133-4057-a916-000000000009",
+                    "path": "<Keyboard>/e",
+                    "action": "Harvest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Map",
+            "id": "91aa981b-8133-4057-a916-000000000010",
+            "actions": [
+                {
+                    "name": "ToggleAreaMap",
+                    "type": "Button",
+                    "id": "91aa981b-8133-4057-a916-000000000011",
+                    "expectedControlType": "Button"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "91aa981b-8133-4057-a916-000000000012",
+                    "path": "<Keyboard>/m",
+                    "action": "ToggleAreaMap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

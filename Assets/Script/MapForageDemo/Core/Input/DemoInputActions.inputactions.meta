@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: e4eeb86ce0f247c58e9daa98fc060aea
+ScriptedImporter:
+  script: {fileID: 11500000, guid: 8404be70184654265930450def6a9037, type: 3}
+  generateWrapperCode: 1
+  wrapperCodePath:
+  wrapperClassName: DemoInputActions
+  wrapperCodeNamespace: MapForageDemo.Core.Input
